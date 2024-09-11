@@ -43,6 +43,9 @@ body{
         border: 0;
         width: 30px;
     }
+    input[type= "range"]{
+        margin-left: 4px;
+    }
     label{
         text-wrap: nowrap;
     }
