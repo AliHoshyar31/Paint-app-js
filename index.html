@@ -3,11 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div>
+            <div class="tools-aera">
+                <div class="tools">
+                    <div class="eraser">
+                        <i class="fa-solid fa-eraser"></i>
+                        <label>Eraser</label>
+                    </div>
+                    <div class="brash">
+                        <i class="fa-solid fa-paint-brush"></i>
+                        <label>Brush</label>
+                    </div>
+                    <div class="color">
+                        <i class="fa-solid fa-palette fa-sharp"></i>
+                        <label for="color-picker">Choose color</label>
+                        <input type="color" id="color-picker">
+                    </div>
+                    <div class="range">
+                        <label for="brush-width">Brush width</label>
+                        <input type="range" id="brush-width">
+                    </div>
+                    <div class="buttons">
+                        <button class="save-btn">Save</button>
+                        <button class="clear-btn">Clear</button>
+                    </div>
+                </div>
+            </div>
+            <div class="draw-aera">
+                <canvas></canvas>
+            </div>
+        </div>
+    </div>
 
     <script src="./app.js"></script>
 </body>
