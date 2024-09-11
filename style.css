@@ -11,22 +11,26 @@ body{
     border-radius: 8px;
     background-color: #fff;
     overflow: hidden;
+    box-shadow: 0 0 20px #505050;
 }
 .tools{
-    padding: 5px 8px;
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #5050505d;
 }
 .tools div{
     display: flex;
     align-items: center;
+    margin-inline: 20px;
     i{
         margin-right: 3px;
     }
     input[type= "color"]{
         margin-left: 4px;
+    }
+    label{
+        text-wrap: nowrap;
     }
 }
 .save-btn, .clear-btn{
@@ -51,4 +55,9 @@ body{
 }
 .draw-aera canvas{
     width: 100%;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: end;
 }
