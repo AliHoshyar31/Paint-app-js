@@ -12,13 +12,13 @@
         <div>
             <div class="tools-aera">
                 <div class="tools">
+                    <div class="brush active">
+                        <i class="fa-solid fa-paint-brush"></i>
+                        <label>Brush</label>
+                    </div>
                     <div class="eraser">
                         <i class="fa-solid fa-eraser"></i>
                         <label>Eraser</label>
-                    </div>
-                    <div class="brash">
-                        <i class="fa-solid fa-paint-brush"></i>
-                        <label>Brush</label>
                     </div>
                     <div class="color">
                         <i class="fa-solid fa-palette fa-sharp"></i>
@@ -27,7 +27,7 @@
                     </div>
                     <div class="range">
                         <label for="brush-width">Brush width</label>
-                        <input type="range" id="brush-width">
+                        <input type="range" min="1" max="10" value="3" id="brush-width">
                     </div>
                     <div class="buttons">
                         <button class="save-btn">Save</button>
